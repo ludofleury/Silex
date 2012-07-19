@@ -22,6 +22,9 @@
         "symfony/http-kernel": "2.1.*",
         "symfony/routing": "2.1.*"
     },
+    "replace": {
+      "silex/silex": "self.version"
+    },
     "require-dev": {
         "symfony/security": "2.1.*",
         "symfony/config": "2.1.*",
